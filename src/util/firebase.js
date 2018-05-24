@@ -1,14 +1,5 @@
-const firebase = require('firebase')
-
-// Initialize Firebase
-const config = {
-  apiKey: "AIzaSyD6ypc-tdzvmoNaHKz4rxoZwx5nTMAesAg",
-  authDomain: "escrow-eth.firebaseapp.com",
-  databaseURL: "https://escrow-eth.firebaseio.com",
-  projectId: "escrow-eth",
-  storageBucket: "escrow-eth.appspot.com",
-  messagingSenderId: "251713990636"
-};
+const firebase = require('firebase');
+import config from '../../config.json';
 
 firebase.initializeApp(config);
 
